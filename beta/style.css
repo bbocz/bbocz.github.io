@@ -67,3 +67,23 @@ text-align: center;
 
 
 tr:hover {background-color: #c9c5c5}
+
+
+
+a:link {
+    color: #696969;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #696969;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
