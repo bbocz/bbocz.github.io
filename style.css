@@ -109,7 +109,7 @@ div.footer {
    position: absolute;
    bottom:0px;
    width:100%;
-   height: 0px;
+   height: 20px;
    background: clear;
    color: lightgray;
 
@@ -118,12 +118,12 @@ div.footer {
 
 div.footernav {
 
-padding-bottom: 0px;
+padding-bottom: 10px;
 
 
 }
 
-div.footerclose{
+div.footerclose {
 
 text-align: left;
 
