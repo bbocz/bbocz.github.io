@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightsalmon;
+}
+#game_container{
+
+}
+div.row div{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+div.row{
+    height: 30px;
+}
+div.block{
+    background-image: url('Images/wall.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+div.coin{
+    background-image: url("Images/coin.gif");
+    background-size: cover;
+
+}
+div#sprite{
+    background-image: url("Images/pacman.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+}
+div#enemy{
+    background-image: url("Images/ghost.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 28px;
+    width: 28px;
+    position: absolute;
+}
+div#enemy2{
+    background-image: url("Images/ghost.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 28px;
+    width: 28px;
+    position: absolute;
+}
+div.empty{
+    /* empty game block */
+}
+#coins_left{
+    color: white;
+    font-weight: bold;
+    font-style: 22px;
+}
+#score{
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#score p{
+    color: yellow;
+    font-weight: bold;
+    font-size: 22px;
+}
+#lives p{
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+}
+#lives_left{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+#lives{
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
