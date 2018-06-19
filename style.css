@@ -136,3 +136,16 @@ color: black;
 
 
 }
+
+
+p.italic {
+
+font-style: italic;
+}
+
+p.bold {
+
+font-style: bold;
+
+
+}
