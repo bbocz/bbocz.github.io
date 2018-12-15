@@ -1,0 +1,57 @@
+header {
+
+font-family: 'Roboto' , sans-serif;
+
+
+}
+
+body {
+  
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+
+
+  
+}
+
+div.body {
+
+  margin-top: 58px;
+  text-align: left;
+  position: static;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+
+}
+
+img.about {
+
+height: auto;
+width: 100%;
+padding-top: 5px;
+padding-bottom: 5px;
+display: block;
+max-width: viewport;
+
+}
+
+img.sign {
+
+height: auto;
+width: 25%;
+min-width: 100px;
+max-width: 500px;
+padding: 5px;
+display: block;
+
+
+}
+
+ul.social {
+
+list-style-type: none;
+
+
+}
