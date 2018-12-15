@@ -40,6 +40,8 @@ img.sign {
 
 height: auto;
 width: 25%;
+min-width: 100px;
+max-width: 500px;
 padding: 5px;
 display: block;
 
