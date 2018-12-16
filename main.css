@@ -92,6 +92,8 @@ font-style: italic;
 
 a.blogpostlisting:link {
   text-decoration: none;
+  color: black;
+  
 }
 
 a.blogpostlisting:visited {
