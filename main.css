@@ -68,3 +68,43 @@ img.snap {
 width: 150px;
 height: 150px;
 }
+
+
+div.blogpostlisting {
+
+max-width: 300px;
+
+
+}
+
+div.blogpost {
+  max-width: 100%;
+}
+
+
+p.blogpostlistingdate {
+
+font-style: italic;
+
+}
+
+
+
+a.blogpostlisting:link {
+  text-decoration: none;
+}
+
+a.blogpostlisting:visited {
+  text-decoration: none;
+  color: black;
+
+}
+
+a.blogpostlisting:hover {
+  text-decoration: underline;
+}
+
+a.blogpostlisting:active {
+  text-decoration: underline;
+
+}
