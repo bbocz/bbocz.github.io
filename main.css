@@ -114,6 +114,10 @@ a.blogpostlisting:active {
 
 img.blog {
 
-  max-width: 300px;
+
   width: 100%;
+  height: auto;
+  max-width: viewport;
+  display: block;
+  
 }
