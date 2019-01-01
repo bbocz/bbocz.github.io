@@ -110,3 +110,10 @@ a.blogpostlisting:active {
   text-decoration: underline;
 
 }
+
+
+img.blog {
+
+  max-width: 300px;
+  width: 100%;
+}
