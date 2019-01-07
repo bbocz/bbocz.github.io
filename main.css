@@ -122,6 +122,16 @@ img.blog {
 
 }
 
+p.italic {
 
+  font-style: italic;
+  }
+  
+  p.bold {
+  
+  font-style: bold;
+  
+  
+  }
 
 /* here is a comment
