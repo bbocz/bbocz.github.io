@@ -201,6 +201,18 @@ position: static;
 
 }
 
+
+/* this is the code for the blog back button */
+
+img.back {
+
+  height: 50px;
+  width: auto;
+  position: absolute;
+  
+
+}
+
 /* here is a comment
 /* here is another comment
 /* here is another comment
