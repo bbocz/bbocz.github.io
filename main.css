@@ -141,6 +141,31 @@ p.indent {
 
 }
 
+
+div.cleveland {
+
+text-align: center;
+position: static;
+
+
+}
+
+
+h2.cleveland {
+
+  color: navy;
+  font-weight: bold;
+
+}
+
+p.cleveland {
+
+color: darkgray;
+position: static;
+
+
+}
+
 /* here is a comment
 /* here is another comment
 /* here is another comment
