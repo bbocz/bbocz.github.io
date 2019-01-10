@@ -173,6 +173,7 @@ position: static;
 
 }
 
+/* the following is for the cleveland guide - it is to overlay text on an image */
 
 .container {
 
@@ -181,10 +182,12 @@ position: static;
   color: rgb(36, 34, 80);
   font-size: larger;
   font-weight: bold;
-  
+
 
 
 }
+
+/* the following is for the cleveland guide - it is to overlay text on an image */
 
 .centered {
 
