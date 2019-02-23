@@ -50,7 +50,7 @@
 
 <div class="container">
 
-    <img src="./left.svg" alt="Dash Background" style="width:100%;">
+    <img src="./left.svg" alt="Dash Background" style="width:100%;" onclick="on()">
     <div class="centered">2000</div>
     <div class="right"> I was born on June 5, 2000 in Cleveland </div>
 
@@ -75,6 +75,26 @@
 </div>
 
 
+
+<div id="overlay">
+    <div id="overlayimage"> TESTING 123 </div>
+</div>
+
+
+<script>
+
+function on() {
+    document.getElementById("overlay").style.display = "block";
+
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+    
+}
+
+
+</script>
 
 
 
