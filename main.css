@@ -213,6 +213,8 @@ position: static;
   font-weight: normal;
 }
 
+/* this is for the story */
+
 .left {
   position: absolute;
   top: 50%;
