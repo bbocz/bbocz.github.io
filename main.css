@@ -203,6 +203,16 @@ position: static;
 }
 
 
+.right {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+}
+
+
+
+
+
 /* this is the code for the blog back button............... */
 
 img.back {
