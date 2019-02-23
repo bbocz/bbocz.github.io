@@ -213,6 +213,14 @@ position: static;
   font-weight: normal;
 }
 
+.left {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  color: rgb(36, 34, 80);
+  font-size: 8pt;
+  font-weight: normal;
+}
 
 
 
