@@ -219,6 +219,18 @@ img.back {
 
 
 
+img.story {
+
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  max-width: viewport;
+  
+  }
+
+
 /* here is a comment
 /* here is another comment
 /* here is another comment
@@ -226,3 +238,6 @@ img.back {
 /* here is another comment to trigger another build
 /* here is another comment to trigger another build
 /* here is another comment to trigger another build
+
+
+
