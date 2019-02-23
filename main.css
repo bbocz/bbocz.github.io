@@ -281,13 +281,23 @@ img.story {
   padding: 5px;
 }
 
+#overlaytext{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-60%);
+  -ms-transform: translate(-50%,-60%);
+  padding: 5px;
+}
+
+
 /* this for the overlay thing */
 
 storyimage {
  position: absolute;
  height: 50vw;
  width: auto;
- 
+
 }
 
 /* here is a comment
