@@ -271,6 +271,14 @@ img.story {
   cursor: pointer; /* Add a pointer on hover */
 }
 
+
+#overlayimage{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+
 /* here is a comment
 /* here is another comment
 /* here is another comment
