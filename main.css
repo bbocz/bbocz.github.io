@@ -212,7 +212,7 @@ position: static;
   font-size: 8pt;
   font-weight: normal;
   direction: block;
-  
+
 }
 
 /* this is for the story */
@@ -220,7 +220,7 @@ position: static;
 .left {
   position: absolute;
   top: 50%;
-  left: 4px;
+  left: 30%;
   color: rgb(36, 34, 80);
   font-size: 8pt;
   font-weight: normal;
