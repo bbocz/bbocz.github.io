@@ -296,7 +296,7 @@ img.story {
 
 /* this for the overlay thing */
 
-storyimage {
+img.storyimage {
  position: absolute;
  height: 50vw;
  width: auto;
