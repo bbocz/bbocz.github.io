@@ -80,18 +80,21 @@
 
         <img src="./left.svg" alt="Dash Background" style="width:100%;">
         <div class="centered">2016</div>
+        <div class="right"> <img class="pearimage" src="./story2016.png" onclick="on4()"> </div>
 </div>
     
 <div class="container">
     
         <img src="./right.svg" alt="Dash Background" style="width:100%;">
         <div class="centered">2018</div>
+        <div class="left"> <img class="pearimage" src="./story2018.png" onclick="on5()"> </div>
 </div>
     
 <div class="container">
 
             <img src="./left.svg" alt="Dash Background" style="width:100%;">
             <div class="centered">2019</div>
+            <div class="right"> <img class="pearimage" src="./stoery2019.png" onclick="on6()"> </div>
 </div>
 
 
@@ -113,17 +116,37 @@
     <div id="overlay2" onclick="off2()">
             <div id="overlayimage"> <img class="storyimage" src="./story2010.png"> 
                  </div>
-            <div id="overlaytext"> Began first E-Commerce venture </div>
+            <div id="overlaytext"> Began my first E-Commerce Venture! </div>
             
         </div>
 
         <div id="overlay3" onclick="off3()">
                 <div id="overlayimage"> <img class="storyimage" src="./story2014.png"> 
                      </div>
-                <div id="overlaytext"> Malibu Beaches is released on iTunes </div>
+                <div id="overlaytext"> Malibu Beaches is released on iTunes! </div>
                 
             </div>
 
+            <div id="overlay4" onclick="off4()">
+                    <div id="overlayimage"> <img class="storyimage" src="./story2016.png"> 
+                         </div>
+                    <div id="overlaytext"> I created this website! </div>
+                    
+                </div>
+
+                <div id="overlay5" onclick="off5()">
+                        <div id="overlayimage"> <img class="storyimage" src="./story2018.png"> 
+                             </div>
+                        <div id="overlaytext"> I graduated High School! </div>
+                        
+                    </div>
+
+                    <div id="overlay6" onclick="off6()">
+                            <div id="overlayimage"> <img class="storyimage" src="./story2019.png"> 
+                                 </div>
+                            <div id="overlaytext"> I currently attend Miami University! </div>
+                            
+                        </div>
 
 <script>
 
@@ -166,6 +189,37 @@ function off3() {
     document.getElementById("overlay3").style.display = "none";
     
 }
+
+function on4() {
+    document.getElementById("overlay4").style.display = "block";
+
+}
+
+function off4() {
+    document.getElementById("overlay4").style.display = "none";
+    
+}
+
+function on5() {
+    document.getElementById("overlay5").style.display = "block";
+
+}
+
+function off5() {
+    document.getElementById("overlay5").style.display = "none";
+    
+}
+
+function on6() {
+    document.getElementById("overlay6").style.display = "block";
+
+}
+
+function off6() {
+    document.getElementById("overlay6").style.display = "none";
+    
+}
+
 
 
 </script>
