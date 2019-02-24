@@ -305,13 +305,14 @@ img.storyimage {
 
 }
 
+/* this for the overlay testing */
 
 img.pearimage {
 
   height: 10vw;
   max-height: 100px;
   position: absolute;
-  
+
 }
 
 /* here is a comment
