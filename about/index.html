@@ -48,36 +48,229 @@
 
 <div class="body">
 
-<img src="../images/ben.jpeg" class="about">
+<div class="container">
 
-<br>
+    <img src="./left.svg" alt="Dash Background" style="width:100%;">
+    <div class="centered">2000</div>
+    <div class="right"> <img class="pearimage" src="./story2000.png" onclick="on()"> </div>
+</div>
 
-<b>
-    My name is Benjamin Ernest Boczulak. I am a marketing major at Miami University in Oxford, Ohio. I grew up and currently reside in Brecksville, Ohio and graduated from Brecksville Broadview Heights High School in 2018. I am best known for my brief dip into the music industry with my cult hit, “Malibu Beaches” (it is available on Apple Music). After “Malibu Beaches” released in 2014, I began many small projects: I started  <a href="https://malibu.money/records">Malibu Money Records  </a>and I created a web app that makes it easy to find hiking trails called <a href="https://malibu.money/cairn">CAIRN.</a> 
+<div class="container">
 
-</b> 
-<br>
-<b>
+    <img src="./right.svg" alt="Dash Background" style="width:100%;">
+    <div class="centered">2005</div>
+    <div class="left"> <img class="pearimage" src="./story2005.png" onclick="on1()"> </div>
+</div>
 
-    Architecture, Nature, Photography, and Books all keep me inspired! 
+<div class="container">
 
-</b>
-<br>
+    <img src="./left.svg" alt="Dash Background" style="width:100%;">
+    <div class="centered">2010</div>
+    <div class="right"> <img class="pearimage" src="./story2010.png" onclick="on2()"> </div>
+</div>
 
-<b>
-    My biggest philosophy is that life is not a zero-sum game. Every interaction should be mutually beneficial, as this gives us all the opportunity to grow and learn from each other. 
+<div class="container">
 
+    <img src="./right.svg" alt="Dash Background" style="width:100%;">
+    <div class="centered">2014</div>
+    <div class="left"> <img class="pearimage" src="./story2014.png" onclick="on3()"> </div>
+</div>
 
+<div class="container">
 
-</b>
+        <img src="./left.svg" alt="Dash Background" style="width:100%;">
+        <div class="centered">2016</div>
+        <div class="right"> <img class="pearimage" src="./story2016.png" onclick="on4()"> </div>
+</div>
+    
+<div class="container">
+    
+        <img src="./right.svg" alt="Dash Background" style="width:100%;">
+        <div class="centered">2018</div>
+        <div class="left"> <img class="pearimage" src="./story2018.png" onclick="on5()"> </div>
+</div>
+    
+<div class="container">
 
-<br>
-
-<img src="../images/sign.png" class="sign">
-
+            <img src="./left.svg" alt="Dash Background" style="width:100%;">
+            <div class="centered">2019</div>
+            <div class="right"> <img class="pearimage" src="./story2019.png" onclick="on6()"> </div>
 </div>
 
 
+
+
+<div class="body">
+
+        <img src="../images/ben.jpeg" class="about">
+        
+        <br>
+        
+        <b>
+
+                My name is Benjamin Ernest Boczulak. I am a marketing major at Miami University in Oxford, Ohio. I grew up and currently reside in Brecksville, Ohio. I have a passion for design, advertising, and branding. In fact, I have created videos, music, podcasts, photos, e-books, websites, web apps, and more!
+
+        </b> 
+        <br>
+        <b>
+        
+        
+        
+        </b>
+        <br>
+        
+        <b>
+            My biggest philosophy is that life is not a zero-sum game. Every interaction should be mutually beneficial, as this gives us all the opportunity to grow and learn from each other. If you think we should collaborate please don't hesitate to <a href="../contact/index.html">contact me!</a>
+        
+        
+        
+        </b>
+        
+        <br>
+        
+        <img src="../images/sign.png" class="sign">
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+<div id="overlay" onclick="off()">
+    <div id="overlayimage"> <img class="storyimage" src="./story2000.png"> 
+         </div>
+    <div id="overlaytext"> I was born on June 5, 2000. </div>
+    
+</div>
+
+<div id="overlay1" onclick="off1()">
+        <div id="overlayimage"> <img class="storyimage" src="./story2005.png"> 
+             </div>
+        <div id="overlaytext"> First day of School! </div>
+        
+    </div>
+
+    <div id="overlay2" onclick="off2()">
+            <div id="overlayimage"> <img class="storyimage" src="./story2010.png"> 
+                 </div>
+            <div id="overlaytext"> Began my first E-Commerce Venture! </div>
+            
+        </div>
+
+        <div id="overlay3" onclick="off3()">
+                <div id="overlayimage"> <img class="storyimage" src="./story2014.png"> 
+                     </div>
+                <div id="overlaytext"> Malibu Beaches is released on iTunes! </div>
+                
+            </div>
+
+            <div id="overlay4" onclick="off4()">
+                    <div id="overlayimage"> <img class="storyimage" src="./story2016.png"> 
+                         </div>
+                    <div id="overlaytext"> I created this website! </div>
+                    
+                </div>
+
+                <div id="overlay5" onclick="off5()">
+                        <div id="overlayimage"> <img class="storyimage" src="./story2018.png"> 
+                             </div>
+                        <div id="overlaytext"> I graduated High School! </div>
+                        
+                    </div>
+
+                    <div id="overlay6" onclick="off6()">
+                            <div id="overlayimage"> <img class="storyimage" src="./story2019.png"> 
+                                 </div>
+                            <div id="overlaytext"> I currently attend Miami University! </div>
+                            
+                        </div>
+
+
+
+
+
+
+
+<script>
+
+function on() {
+    document.getElementById("overlay").style.display = "block";
+
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+    
+}
+
+function on1() {
+    document.getElementById("overlay1").style.display = "block";
+
+}
+
+function off1() {
+    document.getElementById("overlay1").style.display = "none";
+    
+}
+
+function on2() {
+    document.getElementById("overlay2").style.display = "block";
+
+}
+
+function off2() {
+    document.getElementById("overlay2").style.display = "none";
+    
+}
+
+function on3() {
+    document.getElementById("overlay3").style.display = "block";
+
+}
+
+function off3() {
+    document.getElementById("overlay3").style.display = "none";
+    
+}
+
+function on4() {
+    document.getElementById("overlay4").style.display = "block";
+
+}
+
+function off4() {
+    document.getElementById("overlay4").style.display = "none";
+    
+}
+
+function on5() {
+    document.getElementById("overlay5").style.display = "block";
+
+}
+
+function off5() {
+    document.getElementById("overlay5").style.display = "none";
+    
+}
+
+function on6() {
+    document.getElementById("overlay6").style.display = "block";
+
+}
+
+function off6() {
+    document.getElementById("overlay6").style.display = "none";
+    
+}
+
+
+
+</script>
 
 
 
