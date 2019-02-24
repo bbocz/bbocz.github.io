@@ -207,10 +207,12 @@ position: static;
 .right {
   position: absolute;
   top: 50%;
-  right: 10px;
+  right: 30%;
   color: rgb(36, 34, 80);
   font-size: 8pt;
   font-weight: normal;
+  direction: block;
+  
 }
 
 /* this is for the story */
@@ -312,7 +314,7 @@ img.pearimage {
   height: 10vw;
   max-height: 100px;
   position: absolute;
-
+  transform: translate(-50%,-50%);
 }
 
 /* here is a comment
