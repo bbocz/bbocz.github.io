@@ -286,20 +286,20 @@ img.story {
 
 #overlaytext{
   position: absolute;
+  text-align: center;
+  background-color: lightgray;
+  color: white;
+  
   top: 70%;
   left: 50%;
-  transform: translate(-50%,-70%);
-  -ms-transform: translate(-50%,-70%);
-  padding: 4px;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  padding: 0px;
 }
 
 
-/* this for the overlay thing */
-
 img.storyimage {
- position: absolute;
- height: 50vw;
- width: auto;
+width: 50vw;
 
 }
 
