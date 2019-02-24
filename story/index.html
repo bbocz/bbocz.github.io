@@ -59,6 +59,7 @@
 
     <img src="./right.svg" alt="Dash Background" style="width:100%;">
     <div class="centered">2005</div>
+    <div class="left"> <img class="pearimage" src="./story2005.png" onclick="on1()"> </div>
 </div>
 
 <div class="container">
@@ -100,6 +101,13 @@
     
 </div>
 
+<div id="overlay1" onclick="off1()">
+        <div id="overlayimage"> <img class="storyimage" src="./story2005.png"> 
+             </div>
+        <div id="overlaytext"> First day of School! </div>
+        
+    </div>
+
 
 <script>
 
@@ -113,6 +121,15 @@ function off() {
     
 }
 
+function on1() {
+    document.getElementById("overlay1").style.display = "block";
+
+}
+
+function off1() {
+    document.getElementById("overlay1").style.display = "none";
+    
+}
 
 </script>
 
