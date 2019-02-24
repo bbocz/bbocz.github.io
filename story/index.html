@@ -66,12 +66,14 @@
 
     <img src="./left.svg" alt="Dash Background" style="width:100%;">
     <div class="centered">2010</div>
+    <div class="right"> <img class="pearimage" src="./story2010.png" onclick="on2()"> </div>
 </div>
 
 <div class="container">
 
     <img src="./right.svg" alt="Dash Background" style="width:100%;">
     <div class="centered">2014</div>
+    <div class="left"> <img class="pearimage" src="./story2014.png" onclick="on3()"> </div>
 </div>
 
 <div class="container">
@@ -108,6 +110,20 @@
         
     </div>
 
+    <div id="overlay2" onclick="off2()">
+            <div id="overlayimage"> <img class="storyimage" src="./story2010.png"> 
+                 </div>
+            <div id="overlaytext"> Began first E-Commerce venture </div>
+            
+        </div>
+
+        <div id="overlay3" onclick="off3()">
+                <div id="overlayimage"> <img class="storyimage" src="./story2014.png"> 
+                     </div>
+                <div id="overlaytext"> Malibu Beaches is released on iTunes </div>
+                
+            </div>
+
 
 <script>
 
@@ -130,6 +146,27 @@ function off1() {
     document.getElementById("overlay1").style.display = "none";
     
 }
+
+function on2() {
+    document.getElementById("overlay2").style.display = "block";
+
+}
+
+function off2() {
+    document.getElementById("overlay2").style.display = "none";
+    
+}
+
+function on3() {
+    document.getElementById("overlay3").style.display = "block";
+
+}
+
+function off3() {
+    document.getElementById("overlay3").style.display = "none";
+    
+}
+
 
 </script>
 
