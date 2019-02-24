@@ -348,7 +348,7 @@ img.story {
 
 #overlay6 {
   position: fixed; /* Sit on top of the page content */
-  display: none; /* Hidden by default */
+  display: none; /* Hidden by default xxxxxxxx*/
   width: 100%; /* Full width (cover the whole page) */
   height: 100%; /* Full height (cover the whole page) */
   top: 0;
@@ -356,7 +356,7 @@ img.story {
   right: 0;
   bottom: 0;
   background-color: rgb(163, 163, 163,0.4); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements xxxxxxxx */
   cursor: pointer; /* Add a pointer on hover */
 }
 
