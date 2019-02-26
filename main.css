@@ -468,6 +468,7 @@ img.contactme {
   margin-top: 50px;
   margin-bottom: 50px;
   height: 5vw;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -490,7 +491,7 @@ img.contactmerefreshimage {
   color: rgb(36, 34, 80);
   font-weight: bold;
   font-size: 1vw;
-  
+
 
 }
 

@@ -7,8 +7,9 @@ var quotes = [
 'Let\'s Talk about Marketing',
 'Let\'s Talk about Branding',
 'Let\'s Talk about Advertising',
-'Let\'s Talk about Social Media'
-
+'Let\'s Talk about Social Media',
+'Let\'s Talk about Photography',
+'Let\'s Talk about Architecture'
 
 ]
 
