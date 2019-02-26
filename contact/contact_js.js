@@ -21,4 +21,4 @@ var randomNumber = Math.floor(Math.random()* (quotes.length));
 document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 
 
-}, 5000);
+}, 3000);
