@@ -473,7 +473,7 @@ img.contactme {
   margin-left: auto;
   margin-right: auto;
   min-height: 50px;
-  max-width: 50px;
+  min-width: 50px;
 
 
 }
@@ -492,7 +492,7 @@ img.contactmerefreshimage {
 #quoteDisplay {
   color: rgb(36, 34, 80);
   font-weight: bold;
-  font-size: 10vw;
+  font-size: 5vw;
   text-align: center;
 
 
