@@ -472,6 +472,8 @@ img.contactme {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  min-height: 50px;
+  max-width: 50px;
 
 
 }
@@ -479,7 +481,7 @@ img.contactme {
 img.contactmerefreshimage {
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 20px;
+  height: 10px;
   width: auto;
   display: block;
   margin-left: auto;
