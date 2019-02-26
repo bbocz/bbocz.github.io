@@ -9,7 +9,9 @@ var quotes = [
 'Let\'s Talk about Advertising',
 'Let\'s Talk about Social Media',
 'Let\'s Talk about Photography',
-'Let\'s Talk about Architecture'
+'Let\'s Talk about Architecture',
+'Let\'s Talk about Websites',
+'Let\'s Talk about Music',
 
 ]
 

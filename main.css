@@ -465,16 +465,15 @@ img.pearimage {
 
 
 img.contactme {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  height: 10vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  height: 15vw;
   width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   min-height: 50px;
   min-width: 50px;
-
 
 }
 
