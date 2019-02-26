@@ -490,7 +490,9 @@ img.contactmerefreshimage {
 #quoteDisplay {
   color: rgb(36, 34, 80);
   font-weight: bold;
-  font-size: 1vw;
+  font-size: 10vw;
+  text-align: center;
+
 
 
 }
