@@ -30,7 +30,7 @@ img.repo {
 
 .module {
   /* Demo-Specific Styles */
-  background: black;
+  background:transparent;
   display: flex;
   align-items: center;
   justify-content: center;
