@@ -1,0 +1,142 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Benjamin Boczulak - Contact</title>
+    <meta name="description" content="This is where you will find all of the ways to contact Ben">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/css-fadeshow.min.css">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+    
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-74338715-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-74338715-1');
+</script>
+
+
+
+
+</head>
+
+<body>
+
+<header id="luxbar" class="luxbar-fixed">
+    <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+    <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
+        <ul class="luxbar-navigation">
+            <li class="luxbar-header">
+                <a href="../index.html" class="luxbar-brand">Benjamin Boczulak</a>
+                <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+            </li>
+            <li class="luxbar-item"><a href="../about/index.html">About</a></li>
+            <li class="luxbar-item"><a href="#">Contact</a></li>
+            <li class="luxbar-item"><a href="../portfolio/index.html">Portfolio</a></li>
+            <li class="luxbar-item"><a href="../blog/index.html">Blog</a></li>
+        </ul>
+    </div>
+</header>
+
+
+
+<div class="body" onload="newQuote()">
+
+
+
+<script src="contact_js.js"></script>
+
+
+
+<div class="container">
+
+        <img src="./left.svg" alt="Dash Background" style="width:100%;" >
+        <div class="centered"></div>
+
+</div>
+
+<div id="quoteDisplay">
+
+</div>
+
+
+
+
+<div class="container">
+
+        <img src="./right.svg" alt="Dash Background" style="width:100%;" onload="newQuote()">
+        <div class="centered"></div>
+
+</div>
+
+<div class="typeform-share">
+
+
+<a class="typeform-share button" href="https://ben398.typeform.com/to/n4e76I" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#333367;color:white;cursor:pointer;font-size:2.5vw;line-height:5vw;text-align:center;margin:0;height:5vw;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="5" target="_blank">Contact Me </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+</div>
+
+<div class="container">
+
+        <img src="./left.svg" alt="Dash Background" style="width:100%;" onload="newQuote()">
+        <div class="centered"></div>
+
+</div>
+
+<ul class="social">
+<li>Email: <a href="mailto:ben@bbocz.com">ben@bbocz.com</a></li>
+<li>Phone: <a href="tel:234-251-9110">234-251-9110</a></li>
+<li>Chat:  <a href="https://www.messenger.com/t/boczulak">Messenger</a></li>
+<li>Instagram: <a href="../instagram/index.html">@bbocz</a></li>
+<li>Snapchat: <a onclick="myShow()" href="#">benbtheog</a></li>
+
+</ul>
+
+<div id="myDIV">
+<img class="snap" src="../snap.JPG">
+</div>
+
+<script>
+function myShow() {
+    var x =
+    document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+</script>
+
+
+<div class="container">
+
+    <img src="./right.svg" alt="Dash Background" style="width:100%;" onload="newQuote()">
+    <div class="centered"></div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
