@@ -1,0 +1,30 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: ". ." ". ." ". .";
+}
+
+
+.module {
+  /* Demo-Specific Styles */
+  background:transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: auto;
+  position: static;
+  
+  
+  /* Flex Fallback */
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+}
+img {
+  vertical-align: middle;
+  width: auto;
+  height: 200px;
+
+}
