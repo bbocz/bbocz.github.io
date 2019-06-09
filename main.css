@@ -183,7 +183,7 @@ position: static;
 
   position: relative;
   text-align: center;
-  color: rgb(36, 34, 80);
+  color: #333367;
   font-size: 5vw;
   font-weight: bold;
 
@@ -516,6 +516,11 @@ div.typeform-share {
   margin-bottom: 10px;
   text-align: center;
 
+
+}
+
+hr {
+  border-color: #e0e0e0;
 
 }
 
