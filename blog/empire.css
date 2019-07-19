@@ -1,0 +1,45 @@
+h1.empire {
+
+font-size: 24pt;
+color: #333367;
+text-align: center;
+padding-top: 100px;
+
+
+}
+
+h2.empire {
+    font-size: 12pt;
+    color: #e0e0e0;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    font-style: italic;
+    font-weight: normal;
+
+}
+
+
+div.text {
+    width: 50%;
+    background-color: #e0e0e0;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 200;
+
+}
+
+@media screen and (max-width: 600px) {
+        div.text {
+            width: 100%;
+        }
+}
+
+p.text {
+    font-size: 12pt;
+    text-align: left;
+    color: #333367;
+
+
+}
