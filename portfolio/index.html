@@ -51,7 +51,6 @@
 </header>
 
 
-
 <div class="body">
 
     <div class="grid">
@@ -96,10 +95,40 @@
       <br> 
       <p class="italic"> I use photography to document the world I see around me. My work shows the beauty in the ordinary and the complexity of human creations. I primarily focus on landscape and architectural photography. The interplay between light, color, shadows and nature is at the center of all my photos.  </p>
 
+      <br> 
+
+<a href="./portfolio.pdf"> <img class="back" src="./download.png"></a>
+
+<br>
 
 </div>
 
 
+<footer>
+   <!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="./magnific-popup/magnific-popup-css.css">
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="./magnific-popup/jquery.magnific-popup.js"></script>
+    
+
+<script>
+        $(document).ready(function() {
+          $('.image-link').magnificPopup({type:'image'});
+        });
+        
+        $('.div.module').magnificPopup({
+          delegate: 'img.repo', // child items selector, by clicking on it popup will open
+          type: 'image'
+          // other options
+        });
+        
+        </script>
+
+</footer>
 
 </body>
 </html>
