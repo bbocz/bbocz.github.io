@@ -1,0 +1,513 @@
+body {
+
+
+
+font-family: 'Playfair Display', serif;
+color: black;
+
+
+}
+
+
+
+p{
+
+text-align: center;
+color: black;
+
+
+
+}
+
+
+
+
+
+img.photo {
+
+
+height: auto;
+width: 75%;
+padding-top: 5px;
+padding-bottom: 5px;
+
+
+}
+
+img.social {
+
+height: auto;
+width: 300px;
+padding-top: 0px;
+padding-bottom: 0px;
+
+
+}
+
+img.cover {
+    height: auto;
+    width: 200px;
+    display: block;
+    margin: auto;
+
+    
+
+    
+
+
+}
+
+
+
+
+
+
+img.about {
+
+height: auto;
+width: 100%;
+max-width: 1000px;
+
+padding-top: 5px;
+padding-bottom: 5px ;
+display: block;
+
+
+
+}
+
+
+
+
+
+
+
+
+div.footer {
+   position: absolute;
+   bottom:0px;
+   width:100%;
+   height: 20px;
+   background: clear;
+   color: lightgray;
+
+
+}
+
+div.footernav {
+
+padding-bottom: 10px;
+
+
+}
+
+div.footerclose {
+
+text-align: left;
+
+color: white;
+
+
+
+}
+
+
+html.club { 
+    background: url(club.jpg) no-repeat center center fixed; }
+
+
+
+body.club {
+
+    background-color: transparent;
+    color: white;
+
+}
+
+
+
+.fullscreenDiv {
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;
+}
+.center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 0 auto ;
+    max-width: 100vw;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: transparent;
+}
+
+
+
+p.footer {
+
+    text-align: center;
+    font-size: 8pt;
+    color: white;
+
+}
+
+a.footer{
+
+color: black;
+text-decoration: none;
+
+
+
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+div.header {
+    align-content: center;
+    background: #8cafb4;
+    border-bottom: 5px;
+    border-color: black;
+    position: fixed;
+    width: 100%;
+
+}
+
+
+
+h1.title {
+
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+p.title {
+    text-align: center;
+    margin: 20px;
+    color: black;
+    z-index: 999;
+
+}
+
+div.content {
+
+
+    padding-top: 230px;
+    color: black;
+    padding-bottom: 130px;
+
+  
+
+   
+    
+}
+
+.centered {
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+    text-align: center;
+    font-size: 4vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+  }
+
+  @media screen and (max-width: 600px) {
+      .centered{
+        margin-top: 30vh;
+        margin-bottom: 20vh;
+        text-align: center;
+        font-size: 2em;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+  }
+
+
+
+  div.information {
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+  }
+
+  p.information {
+      font-style: italic;
+      color:  black;
+
+  }
+
+
+
+  .container {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:stretch;
+}
+
+.left {order:1; background:red; flex-basis:100%; height:300px}
+.middle {order:3; background: green;flex-basis:100%; height:300px;}
+.right {order:2; background:yellow;flex-basis:100%; height:300px;}
+
+@media screen and (min-width:600px) {
+   .container {
+       flex-wrap:nowrap;
+   } 
+
+    .left {
+        flex-basis:200px;
+        order:1;
+    }
+    .middle {
+        flex-basis:1;
+        order:2;
+    }
+    .right {
+        flex-basis:200px;
+        order:3;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    border-left: 5px;
+    border-right: 5px;
+    border-color: lightgray;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+img.information {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+    align-content: center;
+    
+
+}
+
+
+.columnpart2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    border-left: 5px;
+    border-right: 5px;
+    border-color: lightgray;
+  }
+
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnpart2 {
+      width: 100%;
+    
+    }
+  }
+
+
+div.whatwedo {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+
+}
+
+
+h2.whatwedo {
+
+
+    text-align: right;
+    align-content: center;
+
+}
+
+p.whatwedo {
+    text-align: left;
+}
+
+
+@media screen and (max-width: 600px) {
+    p.whatwedo {
+   
+      text-align: center;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    h2.whatwedo {
+    
+      text-align: center;
+    }
+  }
+
+
+div.letter {
+    width: 50%;
+    background-color: #e0e0e0;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    div.letter {
+        width: 100%;
+
+    }
+}
+
+p.letter {
+    text-align: left;
+}
+
+img.sig {
+    height: 50px;
+    width: auto;
+}
+
+
+
+div.footerfinal {
+    align-content: center;
+    background: #8cafb4;
+    color: black;
+    width: 100%;
+    padding: 20px;
+
+
+}
+
+
+div.landing {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    width: auto;
+    margin-bottom: 30vh;
+   
+}
+
+
+
+button.landing {
+    background-color: #e0e0e0;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Karla', sans-serif;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+   
+
+
+}
+
+button.landing:hover {
+    background-color: #8cafb4;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Karla', sans-serif;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    font-style: oblique;
+
+
+}
+
+
+
+/* f
+fffffffffffffffffffffffff
+
+.center:hover {
+
+    background-image: url("blackgroundcolor.jpg");
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
