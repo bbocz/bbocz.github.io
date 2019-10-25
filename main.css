@@ -524,6 +524,21 @@ hr {
 
 }
 
+p.portfolioheader {
+  font-size: 18pt;
+  text-align: left;
+  color: #333367;
+  font-weight: bold;
+}
+
+p.portfolioheaderdescription {
+  font-size: 12pt;
+  text-align: left;
+  font-style: italic;
+  color: #333367;
+  font-weight: bold;
+}
+
 
 
 /* here is another comment/* here is another comment/* here is another comment
