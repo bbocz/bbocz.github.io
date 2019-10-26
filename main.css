@@ -542,6 +542,7 @@ p.portfolioheaderdescription {
 hr.portfolioheader {
   border-width: 1px;
   border-color: #333367;
+  border-style: dashed;
 }
 
 
@@ -588,5 +589,6 @@ hr.portfolioheader {
 /* here is another comment to trigger another build
 /* here is another comment to trigger another build
 /* here is another comment to trigger another build
-
+/* here is another comment to trigger another build
+/* here is another comment to trigger another build
 
