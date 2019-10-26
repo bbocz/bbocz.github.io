@@ -539,6 +539,11 @@ p.portfolioheaderdescription {
   font-weight: bold;
 }
 
+hr.portfolioheader {
+  border-width: 1px;
+  border-color: #333367;
+}
+
 
 
 /* here is another comment/* here is another comment/* here is another comment
