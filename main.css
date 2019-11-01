@@ -12,6 +12,8 @@ body {
   font-style: normal;
 
 
+
+
   
 }
 
@@ -25,6 +27,20 @@ div.body {
   margin-bottom: 24px;
 
 }
+
+div.bodylanding {
+
+  margin-top: 58px;
+  text-align: left;
+  position: static;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+
+
+}
+
+
 
 img.about {
 
@@ -405,6 +421,13 @@ img.pearimage {
   transform: translate(-50%,-50%);
 }
 
+img.pearimage:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+
+}
+
+
 
 
 /*hover css begins */
@@ -543,6 +566,181 @@ hr.portfolioheader {
   border-width: 1px;
   border-color: #333367;
   border-style: dashed;
+}
+
+
+div.landing {
+
+  width: 100%;
+  height: auto;
+  margin-top: 30vh;
+
+
+
+
+}
+
+
+p.landing {
+
+
+margin-left: 10vw;
+right: auto;
+max-width: 350px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+text-align: left;
+
+color: #000000;
+
+}
+
+@media screen and (max-width: 600px) {
+  p.landing {
+
+
+    margin-left: auto;
+    right: auto;
+    max-width: 350px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+  
+    
+    color: #000000;
+    
+    }
+}
+
+
+
+
+button.landing {
+  width: 200px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #333367;
+  color: white;
+  border-color: transparent;
+  font-size: 13px;
+  margin-left: 10vw;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+button.landing:hover {
+  width: 200px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: transparent;
+  color: #333367;
+  border-color: #333367;
+  border-style: solid;
+  font-size: 13px;
+  margin-left: 10vw;
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+ 
+  button.landing {
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #333367;
+    color: white;
+    border-color: transparent;
+    font-size: 13px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    right: auto;
+    position: relative;
+   
+
+
+  }
+
+}
+
+@media screen and (max-width: 600px)   {
+
+
+  button.landing:hover {
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: #333367;
+    border-color: #333367;
+    border-style: solid;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    right: auto;
+    position: relative;
+
+  
+  }
+
+
+}
+
+
+
+
+
+.box {
+  position:  relative;
+  display: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+
+}
+
+.box::after {
+  content: "";
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+}
+
+.box:hover::after {
+    opacity: 1;
 }
 
 
