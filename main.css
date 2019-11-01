@@ -743,6 +743,54 @@ button.landing:hover {
     opacity: 1;
 }
 
+div.about-lightbox{
+  margin: 0;
+  height: 100vh;
+  min-height: 700px;
+  background-size: cover;
+
+}
+
+div.about-textbox {
+  margin: 0;
+  height: auto;
+  background-color: #1e695a;
+  font-size: 16pt;
+}
+
+p.text-lightbox-left {
+  max-width: 350px;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0;
+  position: absolute;
+  left: 10vw;
+  transform: translateY(-50%);
+
+}
+
+p.text-lightbox-right {
+  max-width: 350px;
+  text-align: right;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0;
+  position: absolute;
+  right: 10vw;
+  transform: translateY(-50%);
+
+}
+
+
+
+
+
+
 
 
 /* here is another comment/* here is another comment/* here is another comment
