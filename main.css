@@ -841,6 +841,194 @@ p.about-text {
 
 
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: auto;
+  text-align: center;
+  border-left: 5px;
+  border-right: 5px;
+  border-color: lightgray;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+img.information {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 25%;
+  align-content: center;
+  
+
+}
+
+
+.columnpart2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto;
+  text-align: center;
+  border-left: 5px;
+  border-right: 5px;
+  border-color: lightgray;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnpart2 {
+    width: 100%;
+  
+  }
+}
+
+
+div.whatwedo {
+ background-color: #e0e0e0;
+  
+
+}
+
+p.whatwedo {
+  text-align: left;
+}
+
+
+@media screen and (max-width: 600px) {
+  p.whatwedo {
+ 
+    text-align: center;
+  }
+}
+
+
+h2.whatwedo {
+
+
+  text-align: right;
+  align-content: center;
+
+}
+
+@media screen and (max-width: 600px) {
+  h2.whatwedo {
+  
+    text-align: center;
+  }
+}
+
+
+
+/* button on about */
+
+
+
+
+button.about {
+  width: 200px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #333367;
+  color: white;
+  border-color: transparent;
+  font-size: 13px;
+  margin-left: 10vw;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+button.about:hover {
+  width: 200px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: transparent;
+  color: #333367;
+  border-color: #333367;
+  border-style: solid;
+  font-size: 13px;
+  margin-left: 10vw;
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+ 
+  button.about {
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #333367;
+    color: white;
+    border-color: transparent;
+    font-size: 13px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    justify-content: center;
+    align-items: center;
+    box-align: middle;
+
+    position: relative;
+   
+
+
+  }
+
+}
+
+@media screen and (max-width: 600px)   {
+
+
+  button.about:hover {
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: #333367;
+    border-color: #333367;
+    border-style: solid;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+
+    position: relative;
+    box-align: middle;
+
+  
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 /* here is another comment/* here is another comment/* here is another comment
