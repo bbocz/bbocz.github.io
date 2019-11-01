@@ -609,7 +609,7 @@ color: #000000;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 20px;
   
     
     color: #000000;
@@ -757,9 +757,13 @@ div.about-textbox {
   background-color: #1e695a;
   font-size: 12pt;
   text-align: left;
+  width: 100%;
   max-width: 100vw;
   padding: 10vw;
   word-wrap: normal;
+  display: block;
+  overflow: hidden;
+  
 }
 
 p.text-lightbox-left {
@@ -790,7 +794,9 @@ p.text-lightbox-right {
 
 }
 
-
+p.about-text {
+  max-width: 300px;
+}
 
 
 
