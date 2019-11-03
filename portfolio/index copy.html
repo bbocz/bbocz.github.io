@@ -1,0 +1,98 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Benjamin Boczulak - Portfolio</title>
+    <meta name="description" content="Benjamin Boczulak is a Cleveland photographer specializing in landscape and architectural photography.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./grid.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/css-fadeshow.min.css">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-74338715-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-74338715-1');
+</script>
+
+
+
+
+</head>
+
+<body>
+
+<header id="luxbar" class="luxbar-fixed">
+    <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+    <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
+        <ul class="luxbar-navigation">
+            <li class="luxbar-header">
+                <a href="../index.html" class="luxbar-brand">Benjamin Boczulak</a>
+                <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+            </li>
+            <li class="luxbar-item"><a href="../about/index.html">About</a></li>
+            <li class="luxbar-item"><a href="../contact/index.html">Contact</a></li>
+            <li class="luxbar-item"><a href="#">Portfolio</a></li>
+            <li class="luxbar-item"><a href="../blog/index.html">Blog</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="body">
+
+  <div class="about-lightbox" style="background-image: url(./sights-book.jpg);">
+    <div style="display: table; height: 100%; overflow: hidden;">
+        <div style="display: table-cell; vertical-align: middle;">
+          <div>
+            <p class="text-lightbox-left">  I create beautiful photobooks </p>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+</div>
+
+
+<footer>
+   <!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="./magnific-popup/magnific-popup-css.css">
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="./magnific-popup/jquery.magnific-popup.js"></script>
+    
+
+<script>
+        $(document).ready(function() {
+          $('.image-link').magnificPopup({type:'image'});
+        });
+        
+        $('.div.module').magnificPopup({
+          delegate: 'img.repo', // child items selector, by clicking on it popup will open
+          type: 'image'
+          // other options
+        });
+        
+        </script>
+
+</footer>
+
+</body>
+</html>
