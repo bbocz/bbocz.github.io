@@ -1,0 +1,17 @@
+body {
+    font-family: 'Alata', sans-serif;
+    background-color: rgb(231 223 208);
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
