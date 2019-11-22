@@ -17,8 +17,14 @@
 
 
 <body>
-        <h1> Hamilton, Ohio</h1> 
-        <h4> by Benjamin Boczulak</h4>
+        <div class="heading">   
+                <h1> 
+                     Hamilton Ohio <br/>
+         
+                </h1>
+
+        </div>
+        
 
         <div id='map' style='width: 100%; height: 90vh;'></div>
         <script>
@@ -27,6 +33,7 @@
         container: 'map',
         style: 'mapbox://styles/bbocz/ck2xecqoa0f6j1bqvrzrbvwcs'
         });
+        map.scrollZoom.disable();
         </script>
 
 
