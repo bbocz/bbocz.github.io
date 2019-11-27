@@ -1,15 +1,26 @@
 body {
     font-family: 'Yeseva One', cursive;
     background-color: rgb(231 223 208);
+    margin: 0;
+    height: auto;
     
-    padding: 5px;
+ 
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     margin: 10px;
     margin-top: 40vh;
     margin-bottom: 40vh;
+    
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+ 
 }
 
 h4 {
@@ -21,16 +32,81 @@ h4 {
 }
 
   div.heading {
-      padding : 40px;
+      padding-top: 10px;
+      padding-bottom: 20vh;
       overflow:hidden;
       margin: 0px auto;
       width: 50vw;
       font-weight: 600;
       line-height: 0.8;
-      font-size: 60px;
-      text-align: left;
-      font-size: 3rem;
+      font-size: 20%;
+      text-align: center;
+      font-size: 2rem;
       color: #4b4b4b;
       font-family: 'Yeseva One';
   }
+
+@media screen and (max-width: 600px) {
+    div.heading {
+        font-size: 1rem;
+    }
+}
+
+
+  div.text {
+    width: 50%;
+    background-color: #fcfaee;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    div.text {
+        width: 100%;
+
+    }
+}
   
+p.text {
+    text-align: left;
+    font-family: 'Alata' , sans serif;
+}
+
+
+div.subheading {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow:hidden;
+    margin: 0px auto;
+    width: 50vw;
+    font-weight: 600;
+    line-height: 0.8;
+    font-size: 20%;
+    text-align: center;
+    font-size: 1rem;
+    color: #4b4b4b;
+    font-family: 'Yeseva One';
+}
+
+img.text {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+@media screen and (max-width: 600px) {
+    img.text {
+        width: 100%;
+    }
+}
+
+
