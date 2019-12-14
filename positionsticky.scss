@@ -1,0 +1,38 @@
+--- 
+--- 
+
+
+// begin content
+
+body {
+    font-family: monospace;
+  }
+  
+  .contacts {
+    background-color: lavender;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 30rem;
+  }
+  
+  .contacts__title {
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .contacts__subtitle {
+    background-color: white;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+  }
+  
+  .contacts__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contacts__item:not(:last-child) {
+    margin-bottom: 1rem;
+  }
