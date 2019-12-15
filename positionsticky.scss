@@ -36,3 +36,24 @@ body {
   .contacts__item:not(:last-child) {
     margin-bottom: 1rem;
   }
+
+
+  div.header {
+    align-content: center;
+    background: #8cafb4;
+    border-bottom: 5px;
+    border-color: black;
+    position: fixed;
+    width: 100%;
+
+}
+
+
+
+h1.title {
+
+    text-align: center;
+    margin: 20px;
+
+}
+
