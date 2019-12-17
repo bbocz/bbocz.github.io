@@ -88,14 +88,10 @@ div.subheading {
     padding-bottom: 0px;
     overflow:hidden;
     margin: 0px auto;
-    width: 50vw;
-    font-weight: 600;
-    line-height: 0.8;
-    font-size: 20%;
     text-align: center;
     font-size:1rem;
     color: #4b4b4b;
-    font-family: 'Yeseva One';
+
 }
 
 img.text {
@@ -156,14 +152,48 @@ span.highlight {
 }
 
 
-.footer {
-    font-family: 'Libre Baskerville';
-    text-align: left;
-    padding: 10px;
-    background-color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+div.footertext {
+    width: 50%;
+    background-color: #ffffff;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-bottom: 40vh;
     color: #4b4b4b;
-  }
+    
 
+
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    div.footertext {
+        width: 100%;
+        padding: 50px;
+        padding-bottom: 40vh;
+    }
+}
+
+a {
+    color: #4b4b4b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4b4b4b;
+    text-decoration: none;
+    background-color: yellow;
+    background-size: 100% 2px;
+    transition: background-position .5s, background-size .3s, ease-in .5s;
+}
+
+a:active {
+    color: #4b4b4b;
+    text-decoration: none;
+    background-color: yellow;
+    background-size: 100% 2px;
+    transition: background-position .5s, background-size .3s, ease-in .5s;
+}
